@@ -21,6 +21,7 @@ addBtn.addEventListener("click", function(e) {
   }
 //eshanvohra
 //version 3.0
+  //added from github
   notesObj.push(myObj);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   addTxt.value = "";
