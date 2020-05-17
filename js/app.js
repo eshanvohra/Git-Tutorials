@@ -20,6 +20,7 @@ addBtn.addEventListener("click", function(e) {
       text:addTxt.value
   }
 //eshanvohra
+//version 3.0
   notesObj.push(myObj);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   addTxt.value = "";
